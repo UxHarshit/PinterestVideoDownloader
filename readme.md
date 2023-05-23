@@ -25,7 +25,7 @@ To use this script:
 1. Make sure you have all dependencies installed.
 2. Run the script using python command in terminal:
     ```shell
-    python pinterest_video_downloader.py
+    python main.py
     ```
 3. Enter the Pinterest page URL when prompted.
 
