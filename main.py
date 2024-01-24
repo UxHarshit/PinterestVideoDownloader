@@ -59,6 +59,6 @@ else:
     extract_url = (soup.find("video",class_="hwa kVc MIw L4E"))['src'] 
     # converting m3u8 to V_720P's url
     convert_url = extract_url.replace("hls","720p").replace("m3u8","mp4")
-    print("Downloading file now")
+    print("Downloading file now!")
     # downloading the file 
     download_file(convert_url, datetime.now().strftime("%d_%m_%H_%M_%S_")+".mp4")
